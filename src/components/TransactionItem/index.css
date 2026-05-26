@@ -1,0 +1,31 @@
+.items-container {
+  border: 1px solid #7e858e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  width: 380px;
+  height: 55px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 110px;
+  font-weight: normal;
+  color: #1e293b;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete {
+  height: 22px;
+}

@@ -1,0 +1,57 @@
+.transactions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 800px;
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.transaction {
+  color: #1e293b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  height: 100px;
+  width: 220px;
+  border-radius: 7px;
+}
+
+.balance-image {
+  height: 60px;
+}
+
+.balance-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flx-start;
+  justify-content: center;
+}
+
+.total {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.balance-description {
+  color: #1e293b;
+  margin-bottom: 0px;
+}
+
+.balance-amount {
+  color: #1e293b;
+}
